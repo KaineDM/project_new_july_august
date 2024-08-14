@@ -1,0 +1,796 @@
+@use "utils" as *;
+@use "global" as *;
+
+.for-school {
+  &.root {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: var(--src) center center / 100% 100% no-repeat;
+    background-color: rgb(255 255 255);
+    overflow: hidden;
+  }
+
+  .cover {
+    position: absolute;
+    inset: 0 51px;
+    width: 1338px;
+    height: 1024px;
+  }
+
+  .hero_title {
+    position: absolute;
+    inset: 95px 428px 905px 254px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 758px;
+    height: 24px;
+    font: 700 47px/0.51 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+
+  .image1 {
+    position: absolute;
+    inset: 47px 1187px 856px 125px;
+    width: 128px;
+    height: 121px;
+    border-radius: 60.5px;
+  }
+
+  .rect {
+    position: absolute;
+    inset: 186px 94px 756px 93px;
+    width: 1253px;
+    height: 82px;
+    background-color: rgb(217 217 217);
+  }
+
+  .decorator {
+    position: absolute;
+    inset: 280px 107px 0 106px;
+    width: 1227px;
+    height: 744px;
+  }
+
+  .subtitle {
+    position: absolute;
+    inset: 124.5px 182px 875.5px 1115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 143px;
+    height: 24px;
+    font: 700 20px/1.2 Cuprum, Helvetica, Arial, serif;
+    color: rgb(47 85 112);
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 0.1px;
+  }
+
+  .rect2 {
+    position: absolute;
+    inset: 196px 868px 766px 355px;
+    width: 217px;
+    height: 62px;
+    background-color: rgb(255 255 255 / 9.8%);
+    border-radius: 18px;
+  }
+
+  .title {
+    position: absolute;
+    inset: 215px 926px 785px 413px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 101px;
+    height: 24px;
+    font: 400 32px/0.75 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    text-align: center;
+    letter-spacing: 0.1px;
+    text-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  }
+
+  .rect3 {
+    position: absolute;
+    inset: 196px 1101px 766px 169px;
+    width: 170px;
+    height: 62px;
+    background-color: rgb(255 255 255 / 9.8%);
+    border-radius: 18px;
+  }
+
+  .title1_box {
+    position: absolute;
+    inset: 214px 1148px 784px 217px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 26px;
+  }
+
+  .title1 {
+    font: 400 32px/0.75 Raleway, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    text-align: center;
+    letter-spacing: 0.1px;
+    text-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  }
+
+  .title1_span0 {
+    font: 1em/0.75 Raleway, Helvetica, Arial, serif;
+  }
+
+  .title1_span1 {
+    font: 1em/0.75 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .rect21 {
+    position: absolute;
+    inset: 196px 635px 766px 588px;
+    width: 217px;
+    height: 62px;
+    background-color: rgb(255 255 255 / 9.8%);
+    border-radius: 18px;
+  }
+
+  .title2 {
+    position: absolute;
+    inset: 215px 680px 785px 633px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 127px;
+    height: 24px;
+    font: 400 32px/0.75 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    text-align: center;
+    letter-spacing: 0.1px;
+    text-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  }
+
+  .rect22 {
+    position: absolute;
+    inset: 196px 402px 766px 821px;
+    width: 217px;
+    height: 62px;
+    background-color: rgb(255 255 255 / 9.8%);
+    border-radius: 18px;
+  }
+
+  .title3 {
+    position: absolute;
+    inset: 215px 432px 785px 852px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 156px;
+    height: 24px;
+    font: 400 32px/0.75 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    text-align: center;
+    letter-spacing: 0.1px;
+    text-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  }
+
+  .rect23 {
+    position: absolute;
+    inset: 196px 169px 766px 1054px;
+    width: 217px;
+    height: 62px;
+    background-color: rgb(255 255 255 / 9.8%);
+    border-radius: 18px;
+  }
+
+  .title4 {
+    position: absolute;
+    inset: 215px 201px 785px 1087px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 152px;
+    height: 24px;
+    font: 400 32px/0.75 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    text-align: center;
+    letter-spacing: 0.1px;
+    text-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  }
+
+  .subtitle1 {
+    position: absolute;
+    inset: 69.5px 140px 906.5px 1074px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 226px;
+    height: 48px;
+    font: 700 20px/1.2 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+
+  .hero_title1_box {
+    position: absolute;
+    inset: 337px 183px 47px 613px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 644px;
+    height: 640px;
+  }
+
+  .hero_title1 {
+    font: 400 40px/0.8 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+
+  .hero_title1_span0 {
+    font: 1em/0.8 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .hero_title1_span1 {
+    font: 700 1em/0.8 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .hero_title1_span2 {
+    font: 1em/0.8 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .hero_title1_span3 {
+    font: 700 1em/0.8 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .hero_title1_span4 {
+    font: 1em/0.8 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .hero_title1_span5 {
+    font: 700 1em/0.8 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .hero_title1_span6 {
+    font: 1em/0.8 Cuprum, Helvetica, Arial, serif;
+  }
+}
+
+.second-page {
+  &.root {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: var(--src) center center / 100% 100% no-repeat;
+    background-color: rgb(255 255 255);
+    overflow: hidden;
+  }
+
+  .rect {
+    position: absolute;
+    inset: 0 51px 0 52px;
+    width: 1337px;
+    height: 1024px;
+    background-color: rgb(255 255 255);
+  }
+
+  .rect1 {
+    position: absolute;
+    inset: 0 95px 269px 93px;
+    width: 1252px;
+    height: 755px;
+    background-color: rgb(255 255 255);
+  }
+
+  .hero_title {
+    position: absolute;
+    inset: 109.5px 652px 882.5px 610px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 178px;
+    height: 32px;
+    font: 400 40px/0.8 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+
+  .decorator {
+    position: absolute;
+    inset: 0 108px 0 105px;
+    width: 1227px;
+    height: 1024px;
+  }
+
+  .subtitle {
+    position: absolute;
+    inset: 942px 985px 36px 221px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 234px;
+    height: 46px;
+    font: 400 20px/1.14 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+
+  .subtitle1 {
+    position: absolute;
+    inset: 937px 656px 41px 657px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 127px;
+    height: 46px;
+    font: 400 20px/1.14 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+
+  .subtitle2 {
+    position: absolute;
+    inset: 942px 241px 36px 1001px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 198px;
+    height: 46px;
+    font: 400 20px/1.14 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+
+  .hero_title1 {
+    position: absolute;
+    inset: 224px 139px 512px 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1205px;
+    height: 288px;
+    font: 400 40px/0.8 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+
+  .image2 {
+    position: absolute;
+    inset: 649px 927px 116px 163px;
+    width: 350px;
+    height: 259px;
+  }
+
+  .image21 {
+    position: absolute;
+    inset: 648px 544px 117px 546px;
+    width: 350px;
+    height: 259px;
+  }
+}
+@use "utils" as *;
+@use "global" as *;
+
+.page-third {
+  &.root {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: var(--src) center center / 100% 100% no-repeat;
+    background-color: rgb(255 255 255);
+    overflow: hidden;
+  }
+
+  .cover {
+    position: absolute;
+    inset: 0 51px;
+    width: 1338px;
+    height: 1024px;
+  }
+
+  .hero_title {
+    position: absolute;
+    inset: 137.5px 510px 862.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 24px;
+    font: 400 96px/0.25 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+
+  .cover1 {
+    position: absolute;
+    inset: 287px 136px 554px 135px;
+    width: 1169px;
+    height: 183px;
+  }
+
+  .medium_title {
+    position: absolute;
+    inset: 306px 305px 573px 477px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 658px;
+    height: 145px;
+    font: 400 24px/1.2 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+
+  .cover2 {
+    position: absolute;
+    inset: 488px 136px 279px 135px;
+    width: 1169px;
+    height: 257px;
+  }
+
+  .rect2 {
+    position: absolute;
+    inset: 772px 136px 20px 135px;
+    width: 1169px;
+    height: 232px;
+    background-color: rgb(217 217 217 / 0%);
+    outline: 1px solid rgb(0 0 0);
+    outline-offset: -1px;
+  }
+
+  .medium_title1 {
+    position: absolute;
+    inset: 529px 509px 321px 267px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 664px;
+    height: 174px;
+    font: 400 24px/1.2 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+
+  .image3 {
+    position: absolute;
+    inset: 809px 1009px 57px 152px;
+    width: 279px;
+    height: 158px;
+  }
+
+  .image31 {
+    position: absolute;
+    inset: 809px 153px 57px 1008px;
+    width: 279px;
+    height: 158px;
+  }
+
+  .medium_title2 {
+    position: absolute;
+    inset: 800px 530px 50px 484px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 426px;
+    height: 174px;
+    font: 400 24px/1.2 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+}
+@use "utils" as *;
+@use "global" as *;
+
+.four-page {
+  &.root {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: var(--src) center center / 100% 100% no-repeat;
+    background-color: rgb(255 255 255);
+    overflow: hidden;
+  }
+
+  .cover {
+    position: absolute;
+    inset: 0 51px;
+    width: 1338px;
+    height: 1024px;
+  }
+
+  .title_box {
+    position: absolute;
+    inset: 39.5px 238px 412.5px 118px;
+    display: flex;
+    align-items: center;
+    width: 1084px;
+    height: 572px;
+  }
+
+  .title {
+    font: 700 32px/1.37 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    letter-spacing: 0.1px;
+  }
+
+  .title_span0 {
+    font: 700 1em/1.37 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .title_span1 {
+    font: 1em/1.37 Cuprum, Helvetica, Arial, serif;
+  }
+}
+@use "utils" as *;
+@use "global" as *;
+
+.untitled-pagepklkj {
+  &.root {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: var(--src) center center / 100% 100% no-repeat;
+    background-color: rgb(255 255 255);
+    overflow: hidden;
+  }
+
+  .cover {
+    position: absolute;
+    inset: 0 51px;
+    width: 1338px;
+    height: 1024px;
+  }
+
+  .title_box {
+    position: absolute;
+    inset: 175px 249px 305px 492px;
+    display: flex;
+    align-items: center;
+    width: 699px;
+    height: 544px;
+  }
+
+  .title {
+    font: 700 32px/1.06 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    letter-spacing: 0.1px;
+  }
+
+  .title_span0 {
+    font: 700 1em/1.06 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .title_span1 {
+    font: 1em/1.06 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .title_span2 {
+    font: 700 1em/1.06 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .title_span3 {
+    font: 1em/1.06 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .title_span4 {
+    font: 700 1em/1.06 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .title_span5 {
+    font: 1em/1.06 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .hero_title {
+    position: absolute;
+    inset: 69px 868px 931px 139px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 433px;
+    height: 24px;
+    font: 400 48px/0.5 Oranienbaum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+
+  .title1_box {
+    position: absolute;
+    inset: 191px 858px 353px 139px;
+    display: flex;
+    align-items: center;
+    width: 443px;
+    height: 480px;
+  }
+
+  .title1 {
+    font: 700 32px/1 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    letter-spacing: 0.1px;
+  }
+
+  .title1_span0 {
+    font: 700 1em/1 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .title1_span1 {
+    font: 1em/1 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .title1_span2 {
+    font: 700 1em/1 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .title1_span3 {
+    font: 1em/1 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .title1_span4 {
+    font: 700 1em/1 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .title1_span5 {
+    font: 1em/1 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .title1_span6 {
+    font: 700 1em/1 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .title1_span7 {
+    font: 1em/1 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .title1_span8 {
+    font: 700 1em/1 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .title1_span9 {
+    font: 1em/1 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .title2_box {
+    position: absolute;
+    inset: 830px 603px 95px 527px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 99px;
+  }
+
+  .title2 {
+    font: 700 32px/1.03 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+
+  .title2_span0 {
+    font: 700 1em/1.03 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .title2_span1 {
+    font: 1em/1.03 Cuprum, Helvetica, Arial, serif;
+  }
+}
+@use "utils" as *;
+@use "global" as *;
+
+.fpage {
+  &.root {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: var(--src) center center / 100% 100% no-repeat;
+    background-color: rgb(255 255 255);
+    overflow: hidden;
+  }
+
+  .cover {
+    position: absolute;
+    inset: 0 51px;
+    width: 1338px;
+    height: 1024px;
+  }
+
+  .rect {
+    position: absolute;
+    inset: 186px 94px 756px 93px;
+    width: 1253px;
+    height: 82px;
+    background-color: rgb(255 255 255);
+  }
+
+  .medium_title_box {
+    position: absolute;
+    inset: 47.5px 500px 802.5px 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 174px;
+  }
+
+  .medium_title {
+    font: 700 24px/1.2 Cuprum, Helvetica, Arial, serif;
+    color: rgb(0 0 0);
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+
+  .medium_title_span0 {
+    font: 700 1em/1.2 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .medium_title_span1 {
+    font: 1em/1.2 Cuprum, Helvetica, Arial, serif;
+  }
+
+  .line {
+    position: absolute;
+    inset: 702px 135px 320px 134px;
+    width: 1171px;
+    height: 2px;
+    background-color: rgb(0 0 0);
+  }
+
+  .image1 {
+    position: absolute;
+    inset: 216px 147px 535px 999px;
+    width: 294px;
+    height: 273px;
+  }
+
+  .image2 {
+    position: absolute;
+    inset: 722px 893px 28px 125px;
+    width: 422px;
+    height: 274px;
+  }
+
+  .medium_title_box1 {
+    position: absolute;
+    inset: 719.5px 404px 188.5px 556px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 116px;
+  }
+
+  .image3 {
+    position: absolute;
+    inset: 838px 401px 28px 548px;
+    width: 491px;
+    height: 158px;
+  }
+
+  .image4 {
+    position: absolute;
+    inset: 732px 135px 28px 1040px;
+    width: 265px;
+    height: 264px;
+  }
+
+  .image5 {
+    position: absolute;
+    inset: 215px 1012px 328px 93px;
+    width: 335px;
+    height: 481px;
+  }
+}
